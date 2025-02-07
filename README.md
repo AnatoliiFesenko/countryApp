@@ -33,7 +33,7 @@ git clone https://github.com/AnatoliiFesenko/countryApp
    npm install
 ```
 
-3. Create .env file and add yuor PORT number for server
+3. Create .env file and add yuor PORT number for server (for example file example.env)
 
 ```bash
     PORT=your-server-port
@@ -58,7 +58,7 @@ git clone https://github.com/AnatoliiFesenko/countryApp
    npm install
 ```
 
-7. Create .env file and add yuor PORT number for web
+7. Create .env file and add yuor PORT number for web (for example file example.env)
 
 ```bash
     VITE_API_PORT=your-server-port
