@@ -1,0 +1,44 @@
+.country-info {
+  h1 {
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+
+    img {
+      margin-left: 10px;
+      border-radius: 4px;
+      width: 40px;
+      height: 25px;
+    }
+  }
+
+  h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+
+  ul {
+    list-style: none;
+    padding-left: 0;
+
+    li {
+      font-size: 1.1rem;
+      margin: 5px 0;
+
+      a {
+        color: #007bff;
+        text-decoration: none;
+        font-weight: bold;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+
+  p {
+    color: #6c757d;
+  }
+}
