@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { getCountries } from "../services/api";
+import "./HomePage.scss";
 
 export default function HomePage() {
   const [countries, setCountries] = useState<Country[]>([]);

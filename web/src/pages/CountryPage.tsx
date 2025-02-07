@@ -1,6 +1,7 @@
 import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { getCountryInfo } from "../services/api";
+import { Link } from "react-router-dom";
 import CountryInfo from "../components/CountryInfo";
 import PopulationChart from "../components/PopulationChart";
 import "./CountryPage.scss";
@@ -29,6 +30,10 @@ export default function CountryPage() {
   if (!country) return <p>Loading...</p>;
   return (
     <div className="chart-container">
+      <Link to="/" className="home-button">
+        Home page
+      </Link>
+      <div className="separator-line"></div>
       <CountryInfo country={country} />
       <h3>Population dynamics:</h3>
       <div className="chart">

@@ -1,5 +1,5 @@
 import { Line } from "react-chartjs-2";
-
+import "./PopulationChart.scss";
 import {
   Chart as ChartJS,
   CategoryScale,
@@ -46,5 +46,9 @@ export default function PopulationChart({
     ],
   };
 
-  return <Line data={data} />;
+  return (
+    <div className="chart">
+      <Line data={data} />
+    </div>
+  );
 }

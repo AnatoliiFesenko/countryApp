@@ -1,15 +1,39 @@
+$blue-color: #007bff;
+$gray-color: rgb(215, 215, 215);
+
 .chart-container {
   max-width: 100%;
   margin: 20px 0;
   padding: 20px;
-
   border-radius: 8px;
+  .home-button {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: $blue-color;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
 
+    &:hover {
+      background-color: #0056b3;
+    }
+  }
+  .separator-line {
+    width: 97vw;
+    margin: 20px auto;
+    border-radius: 5px;
+    border: none;
+    height: 2px;
+    background-color: $blue-color;
+  }
   h3 {
     font-size: 1.5rem;
     margin-bottom: 20px;
     text-align: left;
-    color: #343a40;
+    color: $gray-color;
   }
 
   .chart {
